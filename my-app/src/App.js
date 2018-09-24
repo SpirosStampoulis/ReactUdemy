@@ -4,7 +4,7 @@ import './App.css';
 
 import SearchBar from './components/search_bar';
 
-const API_KEY = 'AIzaSyBC0FderVvs-m8zjAd6hA2R1zDm7-uZlXM';
+// const API_KEY = 'AIzaSyBC0FderVvs-m8zjAd6hA2R1zDm7-uZlXM';
 class App extends Component {
   render() {
     return (
