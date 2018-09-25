@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import YTSearch from 'youtube-api-search'
 
 import SearchBar from './components/search_bar';
 
-// const API_KEY = 'AIzaSyBC0FderVvs-m8zjAd6hA2R1zDm7-uZlXM';
+const API_KEY = 'AIzaSyBC0FderVvs-m8zjAd6hA2R1zDm7-uZlXM';
+
+YTSearch({key: API_KEY, term: 'sutfboards'}, function(data) {
+  console.log(data);
+})
+
 class App extends Component {
   render() {
     return (
